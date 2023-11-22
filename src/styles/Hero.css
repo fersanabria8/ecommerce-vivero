@@ -1,0 +1,25 @@
+.hero__container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* width: 100%; */
+  margin: 0 auto;
+  /* height: 610px */
+}
+
+.hero__container img {
+  width: 100%;  
+  position: relative;
+}
+
+.hero__container h3 {
+  position:absolute;
+  color: yellowgreen;
+  font-weight: 300;
+  font-size: 60px;
+
+}
