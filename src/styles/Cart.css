@@ -1,0 +1,88 @@
+.container-cart{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-cart-nombre p{
+  text-align: center;
+  width: 300px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin-top: 25px;
+}
+
+.container-cart-img img{
+  width: 200px;
+  height: 350px;
+  max-height: 450px;
+  object-fit: cover;
+  padding-bottom: 10px;
+  margin: auto 20%;
+}
+
+.container-cart button {
+  border-radius: 5px;
+  margin: 5px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  background-color: firebrick;
+}
+
+.container-cart button:hover{
+  background-color: #000;
+}
+
+.container-cart button:hover{
+  color: firebrick;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-orden{
+  background-color: blue;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container-orden label{
+  font-size: 18px;
+  background-color: tomato;
+}
+
+#btnVaciar{
+  width: 100px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+#btnEnviarOrden{
+  width: 100px;
+  font-size: 18px;
+  margin: 5px auto
+}
+
+span{
+  color: crimson;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.container-cart-botones {
+  width: 300px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}

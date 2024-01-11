@@ -1,0 +1,56 @@
+.contador-container{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contador-container button {
+  border-radius: 5px;
+  margin: 5px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  background-color: firebrick;
+}
+
+.contador-container button:hover{
+  background-color: #000;
+}
+
+.contador-container button:hover{
+  color: firebrick;
+}
+
+#resta {
+  width: 25px;
+  height: 25px;
+  margin-right:10px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+#suma{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+#botonAddItemCount{
+  width: 160px;
+  font-size: 18px;
+}
+
+label{
+  font-size: 20px;
+}
+
+#btnSeguirComprando{
+  width: 150px;
+  font-size: 18px;
+}
+
+#btnfinCompra{
+  width: 150px;
+  font-size: 18px;
+}

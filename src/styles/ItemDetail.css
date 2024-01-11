@@ -1,0 +1,29 @@
+.card-detail{
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-detail{
+  padding-top: 50px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+
+.container-detail-img img {
+  width: 200px;
+  height: 350px;
+  max-height: 450px;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+
+.container-detail-precio {
+  font-size: 20px;
+  color: crimson;
+  letter-spacing: 1.5px;
+}

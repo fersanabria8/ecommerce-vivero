@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom"
+import face from '../../assets/img/facebook.png'
+import instagram from '../../assets/img/instagram.png'
+import pinterest from '../../assets/img/pinterest.png'
 import '../../styles/Footer.css'
 
 
@@ -24,7 +27,17 @@ export const Footer = () => {
     // </div>
     <div className='footer_container'>
       <div className='footer_tittle'>
-        <h3>Footer</h3>
+        <div className="social_media">
+          <NavLink to='https://www.facebook.com/' target="_blank">
+            <span><img src={face} alt="facebook" /></span>
+          </NavLink>
+          <NavLink to='https://www.instagram.com/' target="_blank">
+            <span><img src={instagram} alt="instagram" /></span>
+          </NavLink>
+          <NavLink to='https://ar.pinterest.com/' target="_blank">
+            <span><img src={pinterest} alt="pinterest" /></span>
+          </NavLink>
+        </div>
       </div>
       <div className='footer_column'>
         <ul className="footer-nav">

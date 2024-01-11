@@ -9,7 +9,7 @@ export const About = () => {
     <div className='about_container'>
       <div className="about1">
         <div className='about_left'>
-          <img src={hero5} alt="hero" />
+          <img src={hero5} alt="hero5" />
         </div>
         <div className='about_right'>
           <h3>Nosotras</h3>
@@ -23,7 +23,7 @@ export const About = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iusto eius veniam earum eveniet? Perferendis velit eveniet totam, non temporibus voluptate expedita quo nam recusandae maxime amet nesciunt vel aut.</p>
         </div>
         <div className='about_right'>
-          <img src={hero7} alt="hero" />
+          <img src={hero7} alt="hero7" />
         </div>
       </div>
     </div>

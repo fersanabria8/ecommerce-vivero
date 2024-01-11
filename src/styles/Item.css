@@ -1,0 +1,74 @@
+.productoplantas__container{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 30px auto; 
+  align-items: ;
+  /* background-color: green; */
+  text-align: center;
+}
+
+.card{
+  overflow: hidden;
+  box-shadow: 0 2px 20px gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  /* transition:transform 600ms ease-in; */
+  width: 290px;
+}
+.card:hover{
+  /* box-shadow: 0 2px 20px rgb(156, 77, 202); */
+  /* box-shadow: 0 2px 20px rgb(52, 28, 185); */
+  /* transform: scale(1.05); */
+}
+
+
+.card button{
+  padding: 16px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 16px;
+  border: 2px solid green;
+  color: green;
+  background: transparent;
+  border-radius: 5px;
+  /* transition: background 200ms ease-in,color 200ms ease-in; */
+}
+.card button:hover{
+  background: green;
+  color: white;
+}
+
+.card img{
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card img:hover{
+  height: 300px;
+  width: 100%;
+
+}
+
+@media (max-width: 860px){
+  .card{
+    overflow: hidden;
+    box-shadow: 0 2px 20px green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    /* transition:transform 200ms ease-in; */
+    width: 250px;
+  }
+
+}
